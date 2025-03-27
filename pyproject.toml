@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "build-env"
+version = "0.1.0"
+description = ""
+authors = ["rafimahrus <rafi.mahrus@sigma.co.id>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pycryptodome = "^3.22.0"
+cryptography = "^44.0.2"
+python-dotenv = "^1.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
